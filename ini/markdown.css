@@ -1,0 +1,65 @@
+body{font-size: 12px;color: white;background-color: #7ba9e2;font-family: 'Consolas';}
+h1,h2,h3,h4,h5,h6{margin: .5em 0;}
+h1{color: #f76700}
+h2{color: #ffe73e}
+h3{color: #0f00f7}
+h4{color: #00712d}
+h5{color: red}
+h6{color: #a50958}
+p{margin: .5em 0;}
+h1{border-bottom: solid 1px #CCCCCC}
+strong,b{color: black}
+i, cite, em, var, address, dfn{color: #ff6262}
+table{border: 1px solid #000;}
+table td{border-top: 1px solid #ff6262;}
+
+blockquote{ /* '>'引用块 */
+    padding: 2px;
+    background-color: #5aabab;
+    border-left:solid 5px #afbda8;
+    margin: 1em 2em;
+    display: table;
+}
+
+code{
+     background-color:#23241f; 
+    border-left: solid 1px #fff;
+    border-radius: 3px;
+    color: #d0d0d0;
+    width: 90%;
+    overflow: auto;
+    margin: 0 .5em;
+}
+pre code{
+    display: table-cell;
+    padding: 20px
+}
+
+/*代码高亮
+<link href="http://cdn.bootcss.com/highlight.js/8.0/styles/monokai_sublime.min.css" rel="stylesheet">  
+*/
+/* .hljs{display:block;padding:.5em;background:#23241f} */
+.hljs,.hljs-tag,.css .hljs-rules,.css .hljs-value,.css .hljs-function .hljs-preprocessor,.hljs-pragma{color:#f8f8f2}
+.hljs-strongemphasis,.hljs-strong,.hljs-emphasis{color:#a8a8a2}
+.hljs-bullet,.hljs-blockquote,.hljs-horizontal_rule,.hljs-number,.hljs-regexp,.alias .hljs-keyword,.hljs-literal,.hljs-hexcolor{color:#ae81ff}
+.hljs-tag .hljs-value,.hljs-code,.hljs-title,.css .hljs-class,.hljs-class .hljs-title:last-child{color:#a6e22e}
+.hljs-link_url{font-size:80%}
+.hljs-strong,.hljs-strongemphasis{font-weight:bold}
+.hljs-emphasis,.hljs-strongemphasis,.hljs-class .hljs-title:last-child{font-style:italic}
+.hljs-keyword,.hljs-function,.hljs-change,.hljs-winutils,.hljs-flow,.lisp .hljs-title,.clojure .hljs-built_in,.nginx .hljs-title,.tex .hljs-special,.hljs-header,.hljs-attribute,.hljs-symbol,.hljs-symbol .hljs-string,.hljs-tag .hljs-title,.hljs-value,.alias .hljs-keyword:first-child,.css .hljs-tag,.css .unit,.css .hljs-important{color:#f92672}
+.hljs-function .hljs-keyword,.hljs-class .hljs-keyword:first-child,.hljs-constant,.css .hljs-attribute{color:#66d9ef}
+.hljs-variable,.hljs-params,.hljs-class .hljs-title{color:#f8f8f2}
+.hljs-string,.css .hljs-id,.hljs-subst,.haskell .hljs-type,.ruby .hljs-class .hljs-parent,.hljs-built_in,.sql .hljs-aggregate,.django .hljs-template_tag,.django .hljs-variable,.smalltalk .hljs-class,.django .hljs-filter .hljs-argument,.smalltalk .hljs-localvars,.smalltalk .hljs-array,.hljs-attr_selector,.hljs-pseudo,.hljs-addition,.hljs-stream,.hljs-envvar,.apache .hljs-tag,.apache .hljs-cbracket,.tex .hljs-command,.hljs-prompt,.hljs-link_label,.hljs-link_url{color:#e6db74}
+.hljs-comment,.hljs-javadoc,.java .hljs-annotation,.python .hljs-decorator,.hljs-template_comment,.hljs-pi,.hljs-doctype,.hljs-deletion,.hljs-shebang,.apache .hljs-sqbracket,.tex .hljs-formula{color:#75715e}
+.coffeescript .javascript,.javascript .xml,.tex .hljs-formula,.xml .javascript,.xml .vbscript,.xml .css,.xml .hljs-cdata,.xml .php,.php .xml{opacity:.5}
+
+/* 代码行号 */
+.pre-numbering {    
+    float: left;
+    padding: 20px 4px;
+    margin: 0;
+    background-color: #23241f;
+    border-radius: 3px 0 0 3px;
+    color: #5fb500;
+} 
+.pre-numbering li{list-style: none}
